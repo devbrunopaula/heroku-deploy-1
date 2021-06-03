@@ -7,6 +7,7 @@ class Welcome {
     res.status(200).json({
       message: 'Working',
       enviromentStatus: this.enviroment,
+      env_test: process.env.TEST,
     })
   }
 }
